@@ -1,0 +1,41 @@
+Bubble sort: compare every element with its adjacent element and swap the elements if they are not in order. 
+Worst case time complexity:	O(n 2 )
+Best case time complexity:	O(n)
+Average time complexity:	O(n 2 )
+Space complexity:	O(1)
+
+Selection Sort: we find the smallest element in the list and put it in its proper place.
+Worst case time complexity	O( n 2 ) ; O(n) swaps two for loops
+Best case time complexity	O( n 2 ) ; O(n) swaps
+Average time complexity	O( n 2 ) ; O(n) swaps
+Space complexity	O(1)
+
+Insertion Sort: we start from the second element of the list. We compare the second element to its previous 
+(1st) element and place it in its proper place
+Worst case time complexity	O(n 2 )
+Best case time complexity	O(n)
+Average time complexity	O(n 2 )
+Space complexity	O(1)
+
+Insertion sort is the most efficient of all the three techniques discussed so far.
+
+Quick Sort: most efficient. This technique uses the “divide and conquer” strategy in which the problem is 
+divided into several subproblems and after solving these subproblems individually are merged together for a complete sorted list.
+Worst case time complexity	O(n 2 )
+Best case time complexity	O(n*log n)
+Average time complexity	O(n*log n)
+Space complexity	O(n*log n)
+Cannot work well with larger data sets.
+
+Merge Sort: "Divide and Conquer"
+we divide the list first into equal halves. Then we perform merge sort technique on these lists independently so that 
+both the lists are sorted. Finally, we merge both the lists to get a complete sorted list.
+quick
+Worst case time complexity	O(n*log n)
+Best case time complexity	O(n*log n)
+Average time complexity	O(n*log n)
+Space complexity	O(n)
+
+Heap Sort: heap data structure (min-heap or max-heap) is used to sort the list. We first construct a heap from the unsorted list 
+and also use the heap to sort the array.
+Heapsort is efficient but not as quick or the Merge sort.

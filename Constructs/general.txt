@@ -1,0 +1,13 @@
+programming constructs are common building blocks used to build a program
+1. Sequence
+    order in which statements occur and are processed e.g. inside curly braces statements one after the other
+    form a sequence
+2. Decision / Selection
+    a path a program takes during its execution -> if-else and switch statement control this
+3. Iteration / Repitition
+    repeated execution of a section of code when a program is running 
+    for loop: (definite iteration)
+    while loop or do-while loop: (indefinite iteration)
+    1.   ‘For’ loops should be used when we know the number of iterations beforehand.
+    2.   While loop should be used when we know the terminating condition of the loop.
+    3.   The do-while loop should be used when we want the loop to be executed at least once.

@@ -1,0 +1,36 @@
+Abstraction: Data hiding from user
+
+Encapsulation: hiding data in a single entity or unit along with a method to protect data
+
+Inheritance: child class can acquire properties of parent class
+
+Polymorphism: many forms - implemented as operator overloading or function overloading - behaves differently in diff situations
+
+Dynamic Binding: OOP supports this. function call is resolved at runtime. This means that the code to be executed
+as a result of a function call is decided at runtime. Virtual functions are an example of dynamic binding.
+
+Message Passing: In OOP, objects communicate with each other using messages. When objects communicate, information 
+is passed back and forth between the objects. A message generally consists of the object name, 
+method name and actual data that is to be sent to another object.
+
+Static: 
+Methods: When a class method is declared static, it can only access static members’ i.e. 
+static variables and static functions of the class. It cannot access ordinary members of the class.
+Also, there is no “this” pointer available for static class methods.
+
+Difference b/w Abstraction and Encapsulation:
+- Encapsulation is a subset of Abstraction which means the objects that help to perform Abstraction are encapsulated
+whereas the objects that result in encapsulation need not be abstracted.
+- In Abstraction problems are solved at design level while in encapsulation they are solved at Implementation level
+- Abstraction can be implemented using abstract class and interfaces while encapsulation can be implemented using
+access modifiers e.g. private protected public
+- Abstraction - Implementation complexities are hidden using abstract classes and interfaces while in
+Encapsulation - data is hidden using getters and setters
+
+Purpose of static functions can be summarized as below:
+
+1. We use static functions when that function does not depend on the object for invoking and working.
+2. Yet another purpose of using static function is to limit its use. Unlike global functions, 
+access to static functions is limited to the file they are placed in. Thus in order to limit the access to function, we make it static.
+3. Apart from the above two reasons, we use static functions when we do not want to create an object of a class just to execute 
+a function that is not referring to any class members.

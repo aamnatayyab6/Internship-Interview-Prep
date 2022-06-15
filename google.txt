@@ -1,0 +1,13 @@
+procedural and generic programming.
+middle-level language as it has the features of a high-level language as well as lower-level language (system programming).
+strongly or statically typed
+general-purpose
+ANSI standard
+Namespace
+insertion/extraction operator
+compilation: compilation can be defined as the conversion of source code into the object code.
+object code: low-level machine instructions understood by machine // source code -> object code (a.out)
+l-value -> memory location | r-value -> data value at a memory location
+size of variable is nothing but size of data type of the variable
+visibility OR scope/ lifetime of a variable
+A lifetime of the variable is how long the variable is going to remain active.

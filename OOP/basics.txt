@@ -1,0 +1,26 @@
+Q: Why OOP over procedural programming?
+A: Procedural languages did not pay attention to data. As a result, the possibility of not addressing the problem in an effective manner 
+was high. Also, as data was almost neglected, data security was easily compromised.
+All these drawbacks of procedural programming were overcome by object-oriented programming.
+
+Q: What is the main programming unit of OOP?
+A: Object.
+
+Q: What is an object?
+A: (ok) An object is an instance of a class.
+    (x) An object is a representation of a real-time entity and consists of data and methods or functions that operate on data.
+    In C++, an object is a run-time entity as it is created at runtime. All the members of the class can be accessed through object.
+    * it takes space in memory
+
+Q: What is a class?
+A: Class is a template from which objects are created.
+    * it does not take space in memory
+
+Q: Pure vs Partial OOP language?
+A:  Pure: A programming language is said to be a true object-oriented programming language if everything it represents is using an object. 
+Smalltalk is one language which is a pure object-oriented programming language.
+    Partial: violations e.g. C++
+    HOW?
+    1.  Creation of class/objects is Optional - irst violation of Pure OOP language where everything is represented as an object.
+    2.  Use of Global Variables violates encapsulation.
+    3.  Presence of a Friend Function - violates OOP paradigm.

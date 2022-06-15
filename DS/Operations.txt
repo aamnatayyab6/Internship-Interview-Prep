@@ -1,0 +1,17 @@
+Searching: This operation is performed to search for a particular element or a key. 
+The most common searching algorithms are 
+    1. sequential/linear search - linear DS
+    2. binary search. - "divide and conquer technique"
+
+Sorting: Sorting operation involves arranging the elements in a data structure in a particular order either ascending or descending. 
+There are various sorting algorithms that are available for data structures. Most popular among them are Quicksort, Selection sort, 
+Merge sort, etc.
+
+Insertion: Insertion operation deals with adding an element to the data structure. This is the most important operation and as a result
+of the addition of an element, the arrangement changes and we need to take care that the data structure remains intact.
+
+Deletion: Deletion operation removes an element from the data structure. The same conditions that are to be considered for insertion 
+are to be fulfilled in case of the deletion operation as well.
+
+Traversing: We say that we traverse a data structure when we visit each and every element in the structure. 
+Traversing is required to carry out certain specific operations on the data structure.

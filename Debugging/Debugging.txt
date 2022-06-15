@@ -1,0 +1,51 @@
+Types of errors:
+    - Syntax or type errors: caught by compiler and reported by error messages / syntax highlighting (squiggly lines)
+        - Typos 
+    - Implementation errors: low-level concrete data structures can be manipulated incorrectly breaking some
+    internal representation invariants
+    - Logical errors: Algorithm problem esp only on just edge cases 
+
+Techniques:
+    1. Assertion (<cassert>), we mostly use it for:
+        a. if the parameters passed to a function are valid
+        b. to check the return value of a function
+        C. to check the array bounds
+        - they are checked at runtime
+
+        -- static_assert: checked at compile time
+
+    Q #1) What is Assert in C++?
+    Answer: An assert in C++ is a predefined macro using which we can test certain assumptions that are set in the program. 
+    When the conditional expression in an assert statement is set to true, the program continues normally. 
+    But when the expression is false, an error message is issued and the program is terminated.
+
+    Q #2) What is static_assert?
+    Answer: Static_assert is evaluated at compile time as against the assert () statement that is evaluated at run time.
+    Static_assert has been incorporated in C++ from C++11 onwards. It takes the conditional expression and a message 
+    to be displayed as arguments. When the condition evaluates to false, a compiler error is issued and the message displayed. 
+    The program is then terminated.
+
+    Q #3) What is the purpose of assert () macro?
+    Answer: Assert () macro is used to test the conditions or assumptions that should not occur in a program. For example, 
+    the array index should always be > 0. Another assumption can be 2+2 == 3+1.
+    So using assert () we can test such assumptions and as long as they evaluate to true, our program runs normally. 
+    When they are false, the program is terminated.
+
+    2. GNU GDB (C++ Debugger):
+    3. Print different variable values in different parts of your code to see if they are as expected or not, (drawback: a lot of garbage information)
+    4. Logging Mechanism: The logging class should able to write logging information into a file. 
+    The file access should be thread safe. Therefore, we should manage a file and a locking resource.
+    5. IDE (vscode): squiggly lines, debugger by adding configuration 
+    -play:
+    -skip:
+    -step into:
+    6. Pen and paper
+
+Strategies:
+    1. Know what you're looking for -> Expected output vs Actual output
+    2. Explain the problem to someone -> e.g. Rubber duck debugging (The Pragmatic Programmer)
+    3. print statements around where the problem could be
+    4. Make methodical changes
+    5. Take a break
+    6. Replicating error
+    7. Asking the community - help

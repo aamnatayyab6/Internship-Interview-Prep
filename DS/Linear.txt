@@ -1,0 +1,6 @@
+Array:
+Linked list:
+    - singly:
+    - doubly:
+Stack: LIFO
+Queue: FIFO
