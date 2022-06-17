@@ -14,16 +14,19 @@ struct count_of_characters {
 
 int first_unique(string s)
 {
-    // vector<int> vec(26,0);
-    // unordered_map<char, int> map;
-    // for (char &ch : s) {
-    //     map[ch]++;
-    // }
-    // for (int i = 0; i < s.size(); i++) {
-    //     if (map[s[i]] == 1) return i;
-    // }
-    // return -1;
-    struct count_of_characters v;
+    // Brute force:
+    /*
+    unordered_map<char, int> map;
+    for (char &ch : s) {
+        map[ch]++;
+    }
+    for (int i = 0; i < s.size(); i++) {
+        if (map[s[i]] == 1) return i;
+    }
+    return -1;
+    */
+    
+    // Optimal:
     unordered_map<char, count_of_characters> map;
     for (size_t i =0; i < s.size(); i++) {
         map[s[i]].count++;
@@ -42,11 +45,6 @@ int first_unique(string s)
         
     }
     return idx >= s.size() ? -1 : idx;
-// 1
-// 0
-// 0
-// 2
-// 5
 }
 
 int main() {
